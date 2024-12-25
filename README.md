@@ -1,8 +1,15 @@
-# React + Vite
+Follow the given steps to run this project locally
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Clone the Repository
+git clone https://github.com/Vedant-Dalavi/codeAnt_project.git
 
-Currently, two official plugins are available:
+# Navigate to the Project Directory
+cd codeAnt_project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Install Dependencies
+npm install
+
+# Start the Development Server
+npm run dev
+
+# The development server will run at http://localhost:5173/
