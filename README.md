@@ -1,4 +1,7 @@
-Follow the given steps to run this project locally
+# Visit this site to directly see the project
+https://code-ant-project-sigma.vercel.app/
+
+#Follow the below steps to run this project locally
 
 # Clone the Repository
 git clone https://github.com/Vedant-Dalavi/codeAnt_project.git
