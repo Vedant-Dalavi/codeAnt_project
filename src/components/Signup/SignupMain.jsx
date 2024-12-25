@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const SignupMain = () => {
 
-    const [toggle, setToggle] = useState(false);
+    const [toggle, setToggle] = useState(true);
 
     return (
         <div className="w-full flex flex-col items-center justify-center px-3">

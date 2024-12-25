@@ -8,7 +8,7 @@ const Header = () => {
                 <div>
 
                     <h1 className="font-semibold text-2xl">Repositories</h1>
-                    <h4>10 total Repositories</h4>
+                    <h4>11 total Repositories</h4>
 
                 </div>
 

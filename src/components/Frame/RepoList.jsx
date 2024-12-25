@@ -38,7 +38,14 @@ const RepoList = () => {
             return `${yearsDifference} years ago`;
         } else if (monthsDifference > 0) {
             return `${monthsDifference} months ago`;
-        } else {
+        }
+        else if (daysDifference == 1) {
+            return `${daysDifference} day ago`;
+        }
+        else if (daysDifference == 0) {
+            return `today`;
+        }
+        else {
             return `${daysDifference} days ago`;
         }
     };
@@ -79,7 +86,7 @@ const RepoList = () => {
                                         <span>{repo.size} KB</span>
                                     </div>
                                     <div className="flex flex-row gap-2 items-center">
-                                        <p>{calculateTimeDifference(repo.updated_at)}</p>
+                                        <p>Updated {calculateTimeDifference(repo.updated_at)}</p>
                                     </div>
                                 </div>
                             </div>
